@@ -1,5 +1,6 @@
 <?php 
 namespace App\Core;
+
 abstract class Model implements IModel{
 
     protected static DataBase|null $database=null; //instance est nulle
